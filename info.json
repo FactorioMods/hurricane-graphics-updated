@@ -1,13 +1,13 @@
 {
-  "name": "hurricane-graphics",
-  "version": "1.0.2",
-  "title": "Hurricane Graphics",
-  "author": "MeteorSwarm, Hurricane046",
+  "name": "hurricane-graphics-updated",
+  "version": "1.0.3",
+  "title": "Hurricane Graphics: Updated",
+  "author": "MeteorSwarm, Hurricane046; johnmart19 / FactorioMods",
   "homepage": "https://www.figma.com/proto/y1IQG08ZG2jIeJ5sTyF4MP/Factorio-Buildings?node-id=14934-304&node-type=frame&t=tk88gXWNIga60zMr-0&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2585%3A1158&hotspot-hints=0&hide-ui=1",
   "description": "Adds most of Hurricane's building graphics as a mod for other mods to reference.",
-  "factorio_version": "2.0",
+  "factorio_version": "2.1",
   "dependencies": [
-    "base >= 2.0.7"
+    "base >= 2.1.24"
   ],
   "quality_required": false,
   "rail_bridges_required": false,
@@ -15,5 +15,8 @@
   "spoiling_required": false,
   "freezing_required": false,
   "segmented_units_required": false,
-  "expansion_shaders_required": false
+  "expansion_shaders_required": false,
+  "migrates_from": [
+    "hurricane-graphics"
+  ]
 }
